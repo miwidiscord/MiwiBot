@@ -1,0 +1,45 @@
+{
+  "name": "miwi-bot",
+  "version": "1.1.0",
+  "description": "The perfect music bot for your Discord server — high-quality music, custom playlists, filters, 24/7 playback and much more. 🚀",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "start": "turbo start",
+    "clean": "turbo clean",
+    "clean:all": "turbo clean:all",
+    "format": "turbo format",
+    "lint": "turbo lint"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@swc/core": "^1.11.11",
+    "@types/node": "^22.13.10",
+    "turbo": "^2.2.3",
+    "typescript": "5.5.4"
+  },
+  "dependencies": {
+    "@sentry/cli": "^2.42.4",
+    "@sentry/node": "^9.8.0",
+    "tsup": "^8.3.5"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "yarn@1.22.22",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miwidiscord/MiwiBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/miwidiscord/MiwiBot/issues"
+  },
+  "homepage": "https://github.com/miwidiscord/MiwiBot#readme",
+  "license": "MIT",
+  "author": "miwidiscord"
+}
